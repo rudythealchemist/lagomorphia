@@ -1,0 +1,60 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    background-color: #72ecf0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    height: 10vh;
+    text-align: center;
+    padding: 1rem;
+    font-size: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(228, 227, 227);
+}
+
+h3 {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.body>p {
+    padding: 5rem;
+}
+
+.github {
+    padding: 5rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: rgb(228, 227, 227);
+    position: fixed;
+    bottom: 0%;
+    height: 5vh;
+    padding: 3rem;
+    width: 100%;
+}
+
+.footer>p {
+    text-align: center;
+    display: flexbox;
+}
+
+a {
+    text-decoration: none;
+}
