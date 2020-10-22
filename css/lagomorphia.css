@@ -1,60 +1,91 @@
-html {
-    font-size: 62.5%;
-}
-
-body {
-    position: relative;
-    background-color: #72ecf0;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.header {
-    height: 10vh;
-    text-align: center;
-    padding: 1rem;
-    font-size: 3rem;
-    margin: auto;
-    text-align: center;
-    background-color: rgb(228, 227, 227);
-}
-
-h3 {
-    margin-top: 4rem;
-    text-align: center;
-    font-size: 3rem;
-}
-
-.body>p {
-    padding: 5rem;
-}
-
-.github {
-    padding: 5rem;
-}
-
-p {
-    font-size: 2rem;
-}
-
-.footer {
-    background-color: rgb(228, 227, 227);
-    position: fixed;
-    bottom: 0%;
-    height: 5vh;
-    padding: 3rem;
-    width: 100%;
-}
-
-.footer>p {
-    text-align: center;
-    display: flexbox;
-}
-
-a {
-    text-decoration: none;
-}
+ html {
+     font-size: 62.5%;
+ }
+ 
+ body {
+     background-color: #72ecf0;
+ }
+ 
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Times New Roman', Times, serif;
+     overflow-x: hidden;
+ }
+ 
+ .header {
+     display: flexbox;
+     width: 100%;
+     text-align: center;
+     padding: 1rem;
+     font-size: 2rem;
+     margin: auto;
+     background-color: rgb(228, 227, 227);
+     text-align: center;
+ }
+ 
+ h1 {
+     align-items: center;
+ }
+ 
+ @media only screen and (max-width: 700px) {
+     * {
+         transition: ease all 3s;
+         text-align: center;
+         -webkit-transition: ease all 3s;
+         -moz-transition: ease all 3s;
+         -ms-transition: ease all 3s;
+         -o-transition: ease all 3s;
+     }
+     .body {
+         font-size: 2rem;
+     }
+     .footer>p {
+         text-align: center;
+         margin: auto;
+     }
+     .body>p {
+         padding: 1rem;
+     }
+     .github {
+         padding: 1rem;
+     }
+ }
+ 
+ h3 {
+     margin-top: 4rem;
+     text-align: center;
+     font-size: 2rem;
+ }
+ 
+ .body>p {
+     padding: 3rem;
+ }
+ 
+ .github {
+     padding: 3rem;
+ }
+ 
+ p {
+     font-size: 2rem;
+ }
+ 
+ .footer {
+     background-color: rgb(228, 227, 227);
+     position: fixed;
+     bottom: 0%;
+     width: 100%;
+     height: 10vh;
+     display: flex;
+     text-align: center;
+     margin: auto;
+ }
+ 
+ .footer>p {
+     text-align: center;
+     margin: auto;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
